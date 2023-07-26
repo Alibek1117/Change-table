@@ -1,8 +1,10 @@
+import CardBox from "./components/CardBox";
+
 function App() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <div className=" w-screen h-screen bg-purple-800 flex justify-center items-center">
+      <CardBox />
+    </div>
   );
 }
 
